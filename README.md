@@ -6,13 +6,15 @@
 
 ### Exercise 1
 
+* Crate a database folder.
 * In your database folder, create an index file.
 * In your shell, create a mysql database.
 * Set up Sequelize to establish a connection to the mysql database, and export the connection.
 
 ### Exercise 2
 
-* Create a file to describe our Sequelize model schema.
+* Create a file to describe our Sequelize model schema, call table Todo, and give it one column name that takes in a string.
+* Sync this table to our database.
 * Export your schema.
 
 ### Exercise 3

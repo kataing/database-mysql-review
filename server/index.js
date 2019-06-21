@@ -1,7 +1,8 @@
 const express = require('express');
-const cors = require('cors');
-const morgan = require('morgan');
-const bodyParser = require('body-parser');
+const cors = require('cors'); // handle CORS permissions
+const morgan = require('morgan'); // lets you see what your sending in terminal
+const bodyParser = require('body-parser'); // converts bufferred data into desired format
+const db = require('../database/index');
 
 const router = require('./router');
 
